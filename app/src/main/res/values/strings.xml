@@ -3,5 +3,5 @@
     <string name="button_start">Start</string>
     <string name="button_close">Close</string>
     <string name="edit_text_default">20</string>
-    <string name="info_text">\n \nPress start button, and relax. \n \nApplication get closed when it is done!!!</string>
+    <string name="info_text">\n \nPress start button, and relax. \nApplication get closed when it is done!!!\n</string>
 </resources>
