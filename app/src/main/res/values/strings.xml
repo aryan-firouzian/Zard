@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Zard</string>
-    <string name="button_text">Start</string>
+    <string name="button_start">Start</string>
+    <string name="button_close">Close</string>
     <string name="edit_text_default">20</string>
-    <string name="info_text">Press start button, and relax. \n Application get closed when it is done!!!</string>
+    <string name="info_text">\n \nPress start button, and relax. \n \nApplication get closed when it is done!!!</string>
 </resources>

@@ -22,10 +22,10 @@
         android:text="@string/edit_text_default"/>
 
     <Button
-        android:id="@+id/button_id"
+        android:id="@+id/button_start"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="@string/button_text" />
+        android:text="@string/button_start" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,5 +36,10 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button_close"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/button_close" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

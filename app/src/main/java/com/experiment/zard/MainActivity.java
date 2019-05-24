@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
     int end = 20;
     boolean repeat = false;
 
-    Button button;
+    Button startButton;
+    Button closeButton;
     EditText editText;
 
 
@@ -36,10 +37,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button_id);
+        startButton = (Button) findViewById(R.id.button_start);
+        closeButton = (Button) findViewById(R.id.button_close);
         editText = (EditText) findViewById(R.id.plain_text_input);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
@@ -48,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
                 } catch(NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
                 }
+            }
+        });
+
+        closeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.this.finish();
+                System.exit(0);
             }
         });
 
