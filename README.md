@@ -7,4 +7,4 @@ Small dialogues are played twice in both languages.
 
 
 
-[APK Download](https://drive.google.com/open?id=1MIGwn79HtwCRf1KQNRQbzAyfMBN7xSwf)
+[APK Download](https://drive.google.com/open?id=1Fa7zf1ELqhV--8deBuiEGhiRykh9dN-_)
