@@ -26,11 +26,12 @@ public class MainActivity extends AppCompatActivity {
     float voiceVolume = 0;
     int end = 20;
     boolean repeat = false;
+    int delay_duration = 5000;
 
     Button startButton;
     Button closeButton;
     EditText editText;
-
+    EditText delayEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +41,16 @@ public class MainActivity extends AppCompatActivity {
         startButton = (Button) findViewById(R.id.button_start);
         closeButton = (Button) findViewById(R.id.button_close);
         editText = (EditText) findViewById(R.id.plain_text_input);
+        delayEditText = (EditText) findViewById(R.id.delay_text);
+
+
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
                     end = Integer.parseInt(editText.getText().toString());
+                    delay_duration = Integer.parseInt(delayEditText.getText().toString());
                     playVoice();
                 } catch(NumberFormatException nfe) {
                     System.out.println("Could not parse " + nfe);
@@ -65,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 if(!secondTrack&&!repeat){
-                    try { Thread.sleep(5000); }
+                    try { Thread.sleep(delay_duration); }
                     catch (InterruptedException ex) { }
                 }
                 playVoice();

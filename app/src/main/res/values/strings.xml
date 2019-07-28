@@ -4,4 +4,7 @@
     <string name="button_close">Close</string>
     <string name="edit_text_default">20</string>
     <string name="info_text">\n \nPress start button, and relax. \nApplication get closed when it is done!!!\n</string>
+    <string name="set_delay">5</string>
+    <string name="textview1">Choose how many lessons do you want to practice</string>
+    <string name="delay_text_view">Select delay between lessons</string>
 </resources>
