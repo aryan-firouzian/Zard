@@ -7,4 +7,4 @@ Small dialogues are played twice in both languages.
 
 
 
-[APK Download](https://drive.google.com/open?id=1Fa7zf1ELqhV--8deBuiEGhiRykh9dN-_)
+[Zard_1.0.1 APK Download](https://drive.google.com/file/d/1QCyRMF8_CNHqSDw7KCxzZBJeNvCIFeM3/view?usp=sharing)
